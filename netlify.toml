@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build & yarn export"
+  command = "yarn export & yarn build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
