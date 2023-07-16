@@ -25,7 +25,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   future: { webpack5: true },
-  target: 'serverless',
+  // target: 'serverless',
   webpack: (config, options) => {
     let enhancedConfig = withPreact(config, options);
     enhancedConfig = enhanceWebpackConfig(config);
